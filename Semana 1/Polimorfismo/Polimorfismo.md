@@ -17,7 +17,7 @@ acciones comunes, mientras que la clase abstracta <code>Character</code> ofrece 
 redundancias de código. Además, presenta un método abstracto que sirve como plantilla para la implementación específica 
 de las acciones distintivas de cada personaje. De esta manera, se logra un equilibrio entre la uniformidad de las acciones 
 compartidas y la flexibilidad para adaptarse a las particularidades de cada personaje.
-
+[Git.md](..%2FGit%2FGit.md)
 ## CharacterActions
 La interfaz <code>CharacterActions</code> define un conjunto de métodos que representan acciones comunes que un personaje 
 de un juego puede llevar a cabo. Estas acciones incluyen saltar, moverse, protegerse, atacar y habilidad especial.
