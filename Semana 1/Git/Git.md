@@ -229,7 +229,7 @@ cambios que se han realizado.
 Ejecutar <code>git push</code> hará que Git intente subir los cambios de la rama local especificada al repositorio 
 remoto. Es importante tener permisos y acceso al repositorio remoto para realizar esta operación.
 
-<center><code>git merge &lt;repositorio-remoto&gt; &lt;rama-local&gt;</code></center>
+<center><code>git push &lt;repositorio-remoto&gt; &lt;rama-local&gt;</code></center>
 
 ### Git fetch
 Este comando se utiliza para recuperar cambios desde un repositorio remoto, pero no fusiona esos cambios en la
@@ -299,7 +299,7 @@ sugerencias de cambios, aceptación o rechazo de los mismos.
 * **Automerge** o **Resolución de Conflictos**. Si no existen conflictos entre los cambios propuestos y la rama de destino,
   GitHub realiza la fusión automáticamente. No obstante, en caso de conflictos, estos deben ser resueltos
   manualmente para proceder con la fusión.
-* **Fusión completa**. Posterior a la fusión, los cambios se incorporan en la rama de destino.
+* **Fusión completa**. Posterior  la fusión, los cambios se incorporan en la rama de destino.
   Es relevante destacar que la rama de origen no se elimina automáticamente, para hacerlo se debe realizarse
   manualmente a través del comando <code>git branch -d</code>.
 
